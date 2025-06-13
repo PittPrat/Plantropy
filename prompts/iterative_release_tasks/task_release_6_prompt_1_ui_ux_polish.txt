@@ -1,0 +1,33 @@
+### **Release 6 Prompts: Polished Product & Portfolio**
+
+#### **Prompt 6.1: Portfolio-Ready UI/UX Polish**
+```
+You are a senior UI/UX designer with a keen eye for detail and aesthetics.
+
+TASK: Conduct a full UI/UX audit and implement polish to bring the application to a portfolio-ready state.
+
+CORE FOCUS:
+- Consistency: Ensure consistent design language (colors, typography, spacing, components) across all screens.
+- Usability: Identify and fix any remaining usability issues or awkward flows.
+- Aesthetics: Improve visual appeal, micro-interactions, and overall delightfulness.
+- Accessibility: Perform a basic accessibility check (WCAG AA compliance where feasible).
+- Performance: Optimize UI rendering, reduce layout shifts, ensure smooth animations.
+
+ACTIVITIES:
+- Heuristic evaluation of the entire application.
+- User testing with 3-5 new users to catch fresh issues.
+- Refine visual assets, icons, and imagery.
+- Add subtle animations and transitions to enhance user experience.
+- Ensure responsive design is flawless on common screen sizes.
+
+DELIVERABLES:
+- A polished, visually appealing, and highly usable application.
+- Documented UI style guide (if not already created).
+- Report on usability testing findings and fixes.
+
+SUCCESS CRITERIA:
+- Application achieves a System Usability Scale (SUS) score of >80.
+- Positive feedback on UI/UX from user testing and peer reviews.
+- Application feels professional and "complete".
+- Zero critical accessibility issues found.
+```

@@ -1,0 +1,32 @@
+#### **Prompt 4.4: Multi-Channel Notifications**
+```
+You are a backend developer focused on reliable communication systems.
+
+TASK: Expand the notification system to support multiple channels (Email, SMS, Push Notifications) for time-sensitive alerts.
+
+CORE FUNCTIONALITY:
+- Integrate with services for SMS and Push Notifications.
+- Allow users to configure their preferred notification channels and types of alerts for each channel.
+- Ensure notifications are delivered reliably and promptly across selected channels.
+- Focus on notifications related to real-time coordination (e.g., flight delays, urgent itinerary changes, critical conflicts).
+
+TECHNICAL REQUIREMENTS:
+- SMS Gateway integration (e.g., Twilio - check free/developer tiers).
+- Push Notification setup (e.g., Firebase Cloud Messaging (FCM) for web/mobile, or Expo Push Notifications if using Expo for mobile later).
+- Robust queueing system for notifications to handle retries and failures.
+- User preference management for notification settings.
+
+NOTIFICATION CONTENT:
+- Concise and actionable messages.
+- Deep links back to the relevant part of the app.
+- Option for users to quickly respond or take action if needed.
+
+DELIVERABLES:
+- Functional SMS and Web Push notifications for critical alerts.
+- Users can configure basic notification channel preferences.
+
+SUCCESS CRITERIA:
+- Critical alerts delivered via SMS/Push within 1 minute of triggering.
+- >95% deliverability for SMS and Push notifications.
+- Users report satisfaction with the timeliness and relevance of multi-channel notifications.
+```

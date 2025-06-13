@@ -1,0 +1,37 @@
+#### **Prompt 3.2: Transparent AI Reasoning**
+```
+You are a UX designer specializing in AI ethics and explainability.
+
+TASK: Design and implement a system that clearly explains *why* the AI made a particular recommendation (especially for accommodation).
+
+CORE FUNCTIONALITY:
+- For each AI recommendation, provide a simple explanation of how it meets (or doesn't meet) group preferences.
+- Highlight trade-offs made (e.g., "This option is slightly over budget for Mike, but meets everyone's desire for a pool").
+- Avoid overly technical jargon; use plain language.
+- Complex reasoning needs simple visualization.
+
+IMPLEMENTATION APPROACH:
+- Step-by-step reasoning display (if applicable).
+- Interactive exploration of alternatives (e.g., "Show me options that prioritize Mike's budget").
+- Confidence scores for recommendations (optional).
+- "What if" scenarios for user exploration (advanced, for later).
+
+VISUAL DESIGN PATTERNS:
+- Reasoning timeline with decision points.
+- Trade-off visualization (e.g., spider chart of satisfaction vs. cost vs. amenities).
+- Interactive elements to explore alternatives.
+- Clear language avoiding technical jargon.
+
+EXAMPLE EXPLANATIONS:
+- "Option A: Best overall match. Meets 4/5 preferences for Sarah, 3/5 for Mike, 5/5 for Jane. Slightly exceeds Mike's budget by $20/night but includes free breakfast for all, potentially offsetting the cost."
+- "Option B: Best budget choice. Fits everyone's budget but lacks a pool, which was a high priority for Jane."
+
+DELIVERABLES:
+- UI component that displays AI reasoning alongside recommendations.
+- Explanations are clear, concise, and helpful.
+
+SUCCESS CRITERIA:
+- Users report understanding why AI made its suggestions >80% of the time.
+- Transparency increases trust in AI recommendations (measured by survey).
+- Zero AI hallucinations or inappropriate suggestions in reasoning text.
+```

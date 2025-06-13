@@ -1,0 +1,33 @@
+#### **Prompt 1.4: Manual Trip Overview Page**
+```
+You are a frontend developer focused on clear information display.
+
+TASK: Create a simple trip overview page where users can manually input and view key trip details.
+
+CORE FUNCTIONALITY:
+- Display trip name, destination, dates.
+- Sections for manual input of: Flights, Accommodation, Itinerary (simple text fields).
+- Allow any group member to edit and save changes.
+- Changes should be visible to all group members in real-time (or near real-time).
+
+TECHNICAL REQUIREMENTS:
+- Supabase for storing trip overview data.
+- Form handling for input fields.
+- Data binding to display saved information.
+- Consider using Supabase Realtime for updates or a simple refresh mechanism.
+
+UI CONSIDERATIONS:
+- Clear, organized layout for easy readability.
+- Obvious way to edit and save information.
+- Indication of when data was last updated.
+
+DELIVERABLES:
+- Functional trip overview page.
+- Users can input and save data for flights, accommodation, itinerary.
+- Saved data is displayed correctly to all group members.
+
+SUCCESS CRITERIA:
+- Information saved within 1 second.
+- Updates visible to other users within 5 seconds.
+- UI is intuitive and requires no explanation for basic use.
+```

@@ -1,0 +1,35 @@
+### **Success Metrics & Risk Mitigation Interface Prompts**
+
+#### **Prompt 7.1: Success Metrics Dashboard**
+```
+You are a data analyst and frontend developer tasked with visualizing project success.
+
+TASK: Design and implement a simple internal dashboard to track key success metrics defined for each release.
+
+CORE FUNCTIONALITY:
+- Display metrics such as: User acquisition, activation, retention, engagement (e.g., features used, decisions made via app), AI suggestion acceptance rates, task completion times, user satisfaction scores (from mock surveys).
+- Data can be mocked or manually updated initially, with hooks for future real data integration.
+- Simple charts and graphs to visualize trends over time.
+- Filter by release or specific time period.
+
+TECHNICAL REQUIREMENTS:
+- Basic charting library (e.g., Chart.js, Recharts) integrated into the Next.js app.
+- Data structure for storing/mocking metrics data.
+- UI for displaying the dashboard (can be a simple, admin-only page).
+
+METRICS TO TRACK (examples, align with release goals):
+- R1: # Trips Created, # Users Joined, Avg Time to Join
+- R2: % AI Suggestions Clicked, # Expenses Logged, % Preferences Completed
+- R3: % AI Recommendations Accepted (Accommodation), # Votes Completed
+- R4: % Flight Delays Communicated, # Itinerary Adjustments Proposed
+- R5: % Recommendation Accuracy Improvement (simulated), Time to Decision Reduction (simulated)
+- R6: SUS Score, Demo Video Views (mocked)
+
+DELIVERABLES:
+- Functional internal dashboard displaying key success metrics.
+- Ability to (manually) update and view metric trends.
+
+SUCCESS CRITERIA:
+- Dashboard accurately reflects (mocked) project progress against success criteria.
+- Key stakeholders can easily understand project performance at a glance.
+```

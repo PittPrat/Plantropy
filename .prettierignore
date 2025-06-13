@@ -1,0 +1,28 @@
+# Build output
+.next/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Supabase local dev
+supabase/.branches/
+supabase/.temp/
+supabase/volumes/
+supabase/functions/_temp/
+supabase/db/v1*/
+
+# Other
+.turbo/
+coverage/
+*.log
+*.DS_Store
+
+# Generated files
+next-env.d.ts

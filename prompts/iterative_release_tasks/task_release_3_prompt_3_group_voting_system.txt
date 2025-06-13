@@ -1,0 +1,32 @@
+#### **Prompt 3.3: Group Voting System**
+```
+You are a full-stack developer building collaborative decision-making tools.
+
+TASK: Implement a group voting system for making decisions on AI-suggested options or user-proposed items.
+
+CORE FUNCTIONALITY:
+- Allow users to initiate a vote on a set of options (e.g., AI-suggested hotels, user-added restaurants).
+- Members can cast votes (e.g., yes/no, ranked choice - start simple with yes/no/abstain).
+- Display real-time voting results.
+- Clearly indicate when a decision is reached (e.g., majority vote, deadline reached).
+- AI can provide a recommended vote based on individual preferences (optional, but show its recommendation clearly labeled).
+
+TECHNICAL REQUIREMENTS:
+- Supabase for storing poll/vote data and results.
+- Real-time updates for vote counts and status (Supabase Realtime).
+- Logic for determining vote outcomes.
+
+UI CONSIDERATIONS:
+- Simple interface for creating polls and casting votes.
+- Clear visualization of voting progress and results.
+- Easy to see what is being voted on and what the options are.
+
+DELIVERABLES:
+- Functional group voting system.
+- Votes are tallied correctly and results displayed in real-time.
+
+SUCCESS CRITERIA:
+- Users can initiate and complete a vote successfully.
+- Voting system is used for >50% of group decisions where applicable.
+- User satisfaction with the voting process is high.
+```

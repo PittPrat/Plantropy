@@ -1,0 +1,29 @@
+#### **Prompt 3.4: Basic Notification System**
+```
+You are a backend developer experienced with real-time event handling.
+
+TASK: Implement a basic notification system for key events within the app.
+
+CORE FUNCTIONALITY:
+- Notify users of: New messages in chat, new votes started, vote results, important trip updates (manually triggered for now).
+- In-app notifications (e.g., a toast or a badge).
+- Email notifications for critical alerts (e.g., trip cancelled - manually triggered).
+
+TECHNICAL REQUIREMENTS:
+- Supabase functions for triggering email notifications (e.g., via Resend, SendGrid free tiers).
+- In-app notification mechanism (can be simple UI elements updated via Supabase Realtime or polling).
+- User settings to manage basic notification preferences (e.g., enable/disable email notifications - very basic for this release).
+
+UI CONSIDERATIONS:
+- Unobtrusive in-app notifications.
+- Clear and concise email content.
+
+DELIVERABLES:
+- Functional in-app notifications for chat and voting events.
+- Basic email notification capability for critical alerts.
+
+SUCCESS CRITERIA:
+- Notifications are delivered reliably (>99% success rate for in-app).
+- Users are aware of important events without being overwhelmed.
+- Email notifications are correctly formatted and sent.
+```

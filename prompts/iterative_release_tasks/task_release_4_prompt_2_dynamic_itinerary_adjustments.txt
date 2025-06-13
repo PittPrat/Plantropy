@@ -1,0 +1,38 @@
+#### **Prompt 4.2: Dynamic Itinerary Adjustments**
+```
+You are an AI agent developer working on autonomous problem-solving.
+
+TASK: Enable the AI to suggest itinerary adjustments in response to real-time disruptions (e.g., flight delays).
+
+CORE FUNCTIONALITY:
+- When a disruption is detected (e.g., flight delay from Prompt 4.1), AI analyzes its impact on the current itinerary.
+- AI suggests changes to affected itinerary items (e.g., rebook dinner reservation, suggest alternative activity).
+- Suggestions should be timely and context-aware.
+- Users can accept, reject, or modify AI suggestions.
+
+AI LOGIC:
+- Identify dependencies in the itinerary (e.g., dinner reservation depends on flight arrival).
+- Assess severity of disruption and its cascading effects.
+- Generate alternative solutions considering group preferences and constraints.
+- Prioritize solutions that minimize negative impact on the trip.
+
+TECHNICAL IMPLEMENTATION:
+- Event-driven architecture: Flight delay event triggers itinerary adjustment logic.
+- Itinerary data structure must support dependencies and easy modification.
+- Integration with suggestion and voting systems from previous releases.
+
+DISRUPTION SCENARIOS:
+1. Flight delayed 2 hours → affects dinner reservation.
+2. Weather forecast shows rain → outdoor activities at risk (manual trigger for weather for now).
+3. Museum closed unexpectedly → alternative needed (manual trigger for now).
+
+DELIVERABLES:
+- AI can identify itinerary items affected by flight delays.
+- AI proposes sensible adjustments to the itinerary.
+- Users can interact with these suggestions.
+
+SUCCESS CRITERIA:
+- 80% of disruption solutions proposed by AI are considered helpful/relevant by users.
+- AI responds to a disruption event with suggestions in <60 seconds.
+- User stress reduction measurable through surveys (long-term goal).
+```

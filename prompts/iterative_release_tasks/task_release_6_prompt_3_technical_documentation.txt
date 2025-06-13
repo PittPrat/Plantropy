@@ -1,0 +1,29 @@
+#### **Prompt 6.3: Technical Documentation & Code Cleanup**
+```
+You are a meticulous software engineer who values maintainable code and clear documentation.
+
+TASK: Perform a final code cleanup, refactor where necessary, and write comprehensive technical documentation.
+
+CODE QUALITY:
+- Review all major code modules for clarity, efficiency, and adherence to best practices.
+- Add comments where logic is complex.
+- Remove dead code and unused dependencies.
+- Ensure consistent code style.
+- Run static analysis tools and fix reported issues.
+
+DOCUMENTATION:
+- Architecture overview: High-level diagram and explanation of system components.
+- Setup and deployment guide: Instructions for developers to set up and deploy the application.
+- API documentation: Document key internal APIs and service interfaces (if applicable).
+- Key AI model explanations: Briefly describe how the core AI features work (e.g., suggestion engine, conflict resolver).
+- Code comments: Ensure JSDoc or TSDoc comments for all public functions and classes.
+
+DELIVERABLES:
+- Cleaned and refactored codebase.
+- Comprehensive technical documentation hosted (e.g., in GitHub Wiki, or using a documentation generator like Docusaurus/MkDocs).
+
+SUCCESS CRITERIA:
+- Codebase passes all linting and static analysis checks with no major issues.
+- A new developer can understand the architecture and set up the project using the documentation within 2 hours.
+- Documentation is clear, accurate, and up-to-date.
+```

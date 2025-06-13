@@ -1,0 +1,45 @@
+### **Release 3 Prompts: Conflict Resolution**
+
+#### **Prompt 3.1: Multi-Party Preference Optimization**
+```
+You are an AI specialist focused on constraint satisfaction and optimization.
+
+TASK: Implement AI-driven optimization for multi-party preferences, starting with accommodations.
+
+CORE FUNCTIONALITY:
+- Takes collected preferences (budget, style, amenities) from multiple users.
+- Searches available accommodations (e.g., via API or scraped data - consider free/demo APIs).
+- Recommends 1-3 options that best satisfy the group's collective preferences.
+- Handles conflicting preferences by finding compromises or highlighting trade-offs.
+
+AI APPROACH:
+- Define a scoring function for accommodations based on preferences.
+- Use techniques like weighted scoring, constraint satisfaction, or simple multi-objective optimization.
+- Start with rule-based logic and gradually introduce ML if needed.
+
+TECHNICAL IMPLEMENTATION:
+- LangChain or similar agent framework (optional, can start simpler).
+- Vector embeddings for preference matching (optional, can start simpler).
+- Constraint satisfaction algorithms.
+- Reasoning chain tracking for transparency (see next prompt).
+
+GROUP DYNAMICS HANDLING:
+- Identify preference conflicts early.
+- Generate compromise solutions.
+- Weight preferences by importance/flexibility (if users provide this).
+- Account for group hierarchy and relationships (advanced, for later).
+
+EXAMPLE SCENARIOS:
+- Sarah wants luxury ($300/night), Mike has $150 budget.
+- Group needs 3 rooms, but most affordable options are 2-bedroom suites.
+- Everyone wants a pool, but only expensive hotels have one.
+
+DELIVERABLES:
+- Functional accommodation suggestion feature based on group preferences.
+- AI can propose compromise solutions for conflicting preferences.
+
+SUCCESS CRITERIA:
+- AI recommendations accepted 60%+ of the time (user feedback).
+- Groups complete accommodation decisions 80% faster (user feedback).
+- User satisfaction with recommendations >4/5 (survey).
+```

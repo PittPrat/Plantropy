@@ -1,0 +1,31 @@
+## Task 12: Define Integration Strategy for External Services on Mobile
+
+**Objective:** Plan how Plantropy will integrate with external services (calendars, location, payments, social media, booking) on the mobile platform, and define the API design for future extensibility.
+
+**Instructions:** Review the requirements below from 'Plantopy_execution.txt'. Focus on the types of services to integrate and the principles for API design (RESTful, webhooks, plugins, event streaming) ensuring they are suitable for mobile and future growth. Prepare to elaborate on these for development planning, considering mobile SDKs, authentication (OAuth), and data exchange.
+
+**Requirements from Plantopy_execution.txt:**
+
+```
+INTEGRATION AND EXTENSIBILITY:
+
+**External Service Integration:**
+- Calendar service integration (Google, Outlook, Apple)
+- Location service integration (Google Maps, Apple Maps)
+- Payment service integration (Venmo, PayPal, Splitwise)
+- Social media integration for plan sharing and discovery
+- Third-party booking service integration for reservations
+
+**API Design for Future Expansion:**
+- RESTful API design for external integrations
+- Webhook system for real-time external notifications
+- Plugin architecture for custom group coordination features
+- Event streaming for analytics and business intelligence
+- Rate limiting and abuse prevention
+
+DELIVERABLES (relevant part from a broader section):
+7. Integration framework for external services and future expansion
+
+```
+
+**Note:** Refer to the full 'Plantopy_execution.txt' document for complete context if needed. Consider how these integrations will leverage native mobile capabilities (e.g., native calendar access, location services).

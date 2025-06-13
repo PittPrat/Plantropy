@@ -1,0 +1,34 @@
+#### **Prompt 1.2: Group Creation & Join**
+```
+You are a UX-focused frontend developer building the core user flow for group travel coordination.
+
+TASK: Build the group creation and join experience that maximizes conversion rates.
+
+USER JOURNEY:
+1. User creates a new trip with basic details (name, destination, rough dates).
+2. System generates shareable join code and link.
+3. Friends can join via code/link without friction.
+4. Immediate access to group chat and trip overview.
+
+UX REQUIREMENTS:
+- Zero-friction joining (guest accounts initially, prompt for full signup later).
+- Join codes that are memorable but secure.
+- Clear call-to-action for sharing.
+- Seamless transition from joining to group interaction.
+- Mobile-first design, responsive for desktop.
+
+TECHNICAL REQUIREMENTS:
+- Supabase for user authentication (anonymous users for guests).
+- Supabase for storing group and trip data.
+- Real-time updates for group membership.
+
+DELIVERABLES:
+- Functional UI for creating trips and generating join codes.
+- Functional UI for joining trips via code/link.
+- Basic group overview page accessible after joining.
+
+SUCCESS CRITERIA:
+- New user can create a trip and get a join code in <30 seconds.
+- Friend can join a trip using a code in <15 seconds.
+- Conversion rate from viewing join page to joining >80%.
+```

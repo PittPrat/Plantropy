@@ -1,0 +1,41 @@
+#### **Prompt 4.3: Proactive Conflict Detection & Resolution (Agent)**
+```
+You are an AI ethicist and system designer building trustworthy AI agents.
+
+TASK: Develop the AI agent's capability to proactively detect potential conflicts and assist in their resolution.
+
+CORE FUNCTIONALITY:
+- AI monitors group discussions (chat) and itinerary plans for potential conflicts (e.g., scheduling clashes, budget disagreements, preference mismatches).
+- When a conflict is detected, AI can:
+  - Privately notify involved parties or a designated group admin.
+  - Suggest neutral ways to phrase concerns.
+  - Propose compromise solutions based on collected preferences and past decisions.
+- AI intervention should be subtle and helpful, not intrusive.
+
+AI LOGIC:
+- Natural Language Processing (NLP) on chat data to identify sentiment, keywords indicating disagreement, or conflicting statements.
+- Cross-reference itinerary items with user preferences and constraints.
+- Rule-based conflict detection initially, with potential for ML-based detection later.
+
+EXAMPLE CONFLICTS:
+- Two activities scheduled at the same time.
+- Proposed restaurant exceeds someone's stated budget.
+- Chat discussion shows disagreement about a planned activity.
+
+AGENT BEHAVIOR:
+- Default to less intrusive actions (e.g., private notification).
+- Offer assistance, don't impose solutions.
+- Learn from which interventions are successful or ignored.
+- Escalation to group for major decisions.
+- Proactive communication with affected parties.
+
+DELIVERABLES:
+- AI can detect basic scheduling conflicts in the itinerary.
+- AI can identify simple budget conflicts based on preferences.
+- AI can send a private notification or a gentle public suggestion for detected conflicts.
+
+SUCCESS CRITERIA:
+- AI correctly identifies >70% of predefined test case conflicts.
+- User feedback indicates AI interventions are helpful and not annoying.
+- Reduction in manually resolved conflicts in test groups.
+```

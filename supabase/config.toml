@@ -1,0 +1,19 @@
+# Supabase project configuration
+# Docs: https://supabase.com/docs/guides/cli/config
+
+project_id = "plantropy"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
+
+[realtime]
+enabled = true
+
+[auth]
+enable_signup = true

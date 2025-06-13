@@ -1,0 +1,31 @@
+#### **Prompt 2.4: Simple Booking Link Aggregation**
+```
+You are a frontend developer focused on utility and simplicity.
+
+TASK: Create a feature where users can manually paste and categorize booking links (flights, hotels, activities).
+
+CORE FUNCTIONALITY:
+- Users can add links with a title, category (Flight, Hotel, Activity, Other), and optional notes.
+- Links are displayed in a list, organized by category or date (if applicable).
+- Links should be clickable and open in a new tab.
+- Any group member can add or view links.
+
+TECHNICAL REQUIREMENTS:
+- Supabase for storing booking links and their metadata.
+- Form for submitting new links.
+- Display list of links with appropriate details.
+
+UI CONSIDERATIONS:
+- Easy way to add new links.
+- Clear and organized display of aggregated links.
+- Quick filtering or sorting (optional for this release).
+
+DELIVERABLES:
+- Functional UI for adding and viewing booking links.
+- Links are persisted and categorized correctly.
+
+SUCCESS CRITERIA:
+- Users can add a link in <30 seconds.
+- Aggregated links are clearly displayed and accessible.
+- This feature is used by >50% of active groups.
+```

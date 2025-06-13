@@ -1,0 +1,30 @@
+#### **Prompt 2.3: Basic Preference Collection**
+```
+You are a UI/UX designer focused on intuitive data input.
+
+TASK: Design and implement a simple way for users to input their basic travel preferences.
+
+CORE FUNCTIONALITY:
+- Collect preferences for: Budget (e.g., $, $$, $$$), Interests (e.g., checkboxes: Outdoors, History, Art, Nightlife, Food), Dietary Restrictions (e.g., text input or common tags).
+- Preferences are stored per user, per trip (can be global with trip-specific overrides later).
+- Preferences should be visible to other group members (transparency helps planning).
+
+TECHNICAL REQUIREMENTS:
+- Supabase for storing user preferences.
+- Forms for inputting preferences.
+- Data structure that allows for easy querying and expansion.
+
+UI CONSIDERATIONS:
+- Engaging and non-intrusive way to ask for preferences (e.g., part of onboarding or trip setup).
+- Quick and easy to fill out.
+- Clear display of own and others' preferences.
+
+DELIVERABLES:
+- Functional UI for collecting and displaying basic preferences.
+- Preferences are saved and associated with users/trips.
+
+SUCCESS CRITERIA:
+- Preference completion rate >60% among active users.
+- Users can input their preferences in <90 seconds.
+- Preferences are accurately displayed to group members.
+```

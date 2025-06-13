@@ -1,0 +1,44 @@
+### **Release 1 Prompts: Foundation**
+
+#### **Prompt 1.1: Project Setup & Architecture**
+```
+You are a senior full-stack developer building a group travel coordination app. 
+
+TASK: Set up the foundational architecture for a scalable, maintainable, and performant application using a modern tech stack. This setup must support iterative development and future AI agent integration.
+
+TECH STACK:
+- Monorepo: PNPM Workspaces + Turborepo
+- Web App: Next.js 14 (App Router)
+- Backend: Supabase (Auth, DB, Realtime, Storage)
+- Language: TypeScript (Strict Mode)
+- Styling: Tailwind CSS (or CSS-in-JS if preferred for RN later)
+- State Management: Zustand (or Valtio)
+- CI/CD: GitHub Actions
+
+ARCHITECTURE PRINCIPLES:
+- Separation of Concerns: Business logic in services, UI in components
+- API-First Design: Define service interfaces before implementation
+- Scalability: Design for 100,000 users (even if starting small)
+- Testability: Unit, integration, and E2E testing setup
+- Developer Experience: Fast builds, clear documentation, easy onboarding
+
+INITIAL SETUP TASKS:
+1. Initialize monorepo with PNPM and Turborepo.
+2. Create Next.js web app (`apps/web`).
+3. Set up Supabase project (local dev environment first).
+4. Define `tsconfig.base.json` and individual package `tsconfig.json`.
+5. Configure ESLint, Prettier, and Husky for code quality.
+6. Create shared packages: `packages/ui`, `packages/core-logic`, `packages/types`.
+7. Implement basic CI/CD pipeline for linting, testing, and building.
+8. Write a README with setup instructions and architecture overview.
+
+DELIVERABLES:
+- Functional monorepo with Next.js app and Supabase integration.
+- CI/CD pipeline passing basic checks.
+- Clear documentation for developers.
+
+SUCCESS CRITERIA:
+- `pnpm install` and `pnpm dev` work flawlessly.
+- Basic Next.js page loads data from Supabase.
+- Linting and tests pass in CI.
+```

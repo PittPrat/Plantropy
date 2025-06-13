@@ -1,0 +1,72 @@
+You are a senior full-stack developer creating "Plantropy" - an AI social planning platform for immediate production launch at zero cost.
+
+MISSION: Set up complete Next.js application with Supabase backend, authentication, and deployment configuration.
+
+TECHNICAL STACK:
+- Next.js 15 with App Router and TypeScript
+- Supabase (auth, database, real-time subscriptions)
+- Tailwind CSS + Shadcn/ui components
+- Vercel deployment with edge optimization
+- PWA configuration for mobile-app experience
+
+CORE FEATURES TO IMPLEMENT:
+1. **Authentication System**
+   - Guest accounts (no signup required)
+   - Full user registration with email
+   - Session management across devices
+   - Profile creation with basic preferences
+
+2. **Database Architecture**
+   - Users table with preferences and social connections
+   - Plans table (date nights, group hangouts, weekend trips)
+   - Groups table for multi-person coordination
+   - Messages table for real-time chat
+   - Optimized indexes for free tier limits
+
+3. **Landing Page & Onboarding**
+   - Compelling value proposition with AI demo
+   - Progressive onboarding (collect data over time)
+   - Mobile-first responsive design
+   - PWA installation prompts
+
+4. **Basic Planning Interface**
+   - Step-by-step plan creation wizard
+   - Plan type selection (date/hangout/travel)
+   - Location and preferences input
+   - Budget and group size configuration
+
+5. **Performance Optimization**
+   - Image optimization and compression
+   - Bundle splitting for optimal loading
+   - Edge function configuration
+   - Service worker for offline capability
+
+DEPLOYMENT REQUIREMENTS:
+- Vercel configuration with environment variables
+- Supabase project setup with RLS policies
+- Custom domain configuration (optional)
+- Analytics integration (Vercel Analytics)
+- Error monitoring and logging
+
+FREE TIER MANAGEMENT:
+- Database query optimization for 50k row limit
+- Bandwidth optimization for 2GB monthly limit
+- Connection pooling for real-time limits
+- Automated cleanup strategies
+
+OUTPUT REQUIREMENTS:
+1. Complete project structure with all files
+2. Package.json with optimized dependencies
+3. Supabase schema and migrations
+4. Vercel deployment configuration
+5. Environment variable templates
+6. Basic UI components and layouts
+7. Authentication flow implementation
+8. PWA manifest and service worker
+
+SUCCESS CRITERIA:
+- Deploys successfully to Vercel
+- Authentication works for guest and full users
+- Mobile responsive with PWA capabilities
+- Loads under 2 seconds globally
+- Ready for immediate user registration

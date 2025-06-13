@@ -1,0 +1,33 @@
+#### **Prompt 6.2: Comprehensive Demo & Walkthrough Video**
+```
+You are a product marketer creating compelling product showcases.
+
+TASK: Create a comprehensive demo script and record a high-quality walkthrough video showcasing all key features and the AI's capabilities.
+
+VIDEO CONTENT:
+- Introduction to the problem: The pain of group travel planning.
+- Solution: How the app solves these problems.
+- Feature showcase: Demonstrate core functionalities from Releases 1-5, emphasizing AI benefits.
+- Highlight key differentiators (e.g., proactive conflict resolution, personalization).
+- Call to action (e.g., try the demo, sign up for beta).
+
+TARGET AUDIENCE:
+- Potential users.
+- Potential investors or employers (if for portfolio).
+
+PRODUCTION QUALITY:
+- Clear audio and video.
+- Engaging narration and pacing.
+- Screen recording with callouts or zooms to highlight features.
+- Professional editing.
+
+DELIVERABLES:
+- Detailed demo script.
+- A 3-5 minute polished demo video.
+- Shorter clips for specific features (optional).
+
+SUCCESS CRITERIA:
+- Video clearly communicates the app's value proposition.
+- Video is engaging and holds viewer attention.
+- Positive feedback on the clarity and professionalism of the demo.
+```

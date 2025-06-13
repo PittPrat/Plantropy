@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@plantropy/ui/*": ["packages/ui/src/*"],
+      "@plantropy/core-logic/*": ["packages/core-logic/src/*"],
+      "@plantropy/services/*": ["packages/services/src/*"],
+      "@plantropy/store/*": ["packages/store/src/*"],
+      "@plantropy/types/*": ["packages/types/src/*"],
+      "@plantropy/utils/*": ["packages/utils/src/*"]
+    },
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", ".turbo", "dist", "build"]
+}

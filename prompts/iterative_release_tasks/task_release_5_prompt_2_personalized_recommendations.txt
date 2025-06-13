@@ -1,0 +1,31 @@
+#### **Prompt 5.2: Personalized Recommendations**
+```
+You are an AI engineer building recommendation systems.
+
+TASK: Enhance AI recommendations to be personalized based on individual and group travel history.
+
+CORE FUNCTIONALITY:
+- AI considers past liked/disliked activities, accommodations, and destinations.
+- Suggestions are tailored to individual user preferences that have been explicitly stated or implicitly learned.
+- For group recommendations, AI balances learned individual preferences with learned group dynamics.
+
+PERSONALIZATION FACTORS:
+- Past ratings or feedback on activities/hotels.
+- Implicit preferences (e.g., user always clicks on budget options, user frequently searches for specific cuisines).
+- Trip history (e.g., user has been to Paris, suggest new neighborhoods or activities).
+- Cross-references with similar users/groups (collaborative filtering, if feasible and privacy-preserving).
+
+TECHNICAL IMPLEMENTATION:
+- User profile for storing learned preferences and interaction history.
+- Recommendation algorithms that incorporate historical data (e.g., content-based filtering, simple collaborative filtering).
+- Ability to explain *why* a recommendation is personalized (e.g., "Because you liked [X similar activity] on your last trip").
+
+DELIVERABLES:
+- AI activity and accommodation suggestions now incorporate user/group history.
+- System can provide a basic explanation for personalization.
+
+SUCCESS CRITERIA:
+- Click-through rate on personalized recommendations is 30% higher than generic recommendations.
+- Users rate personalized suggestions as more relevant (survey).
+- User retention rate >70% for users planning a second trip.
+```

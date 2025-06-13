@@ -1,0 +1,34 @@
+#### **Prompt 1.3: Basic Group Chat**
+```
+You are a full-stack developer tasked with implementing real-time communication.
+
+TASK: Build a basic group chat feature for trip planning discussions.
+
+CORE FUNCTIONALITY:
+- Send and receive text messages in real-time.
+- Display messages with sender name and timestamp.
+- Scrollable chat history.
+- Basic user presence indication (online/offline).
+
+TECHNICAL REQUIREMENTS:
+- Supabase Realtime for message broadcasting.
+- Supabase database for storing chat messages.
+- Efficient message querying and display.
+- Optimistic updates for sent messages.
+
+UI CONSIDERATIONS:
+- Clean, intuitive chat interface.
+- Clear distinction between own and others' messages.
+- Input field with send button.
+- Auto-scrolling to new messages.
+
+DELIVERABLES:
+- Functional group chat within each trip.
+- Messages persisted and loaded correctly.
+- Real-time updates for new messages and presence.
+
+SUCCESS CRITERIA:
+- Messages delivered in <500ms.
+- Chat history loads in <1 second.
+- No message loss or duplication in normal conditions.
+```

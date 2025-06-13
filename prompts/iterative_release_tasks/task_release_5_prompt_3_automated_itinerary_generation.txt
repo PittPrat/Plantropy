@@ -1,0 +1,35 @@
+#### **Prompt 5.3: Automated Itinerary Generation (V1)**
+```
+You are an AI product manager designing a delightful user experience.
+
+TASK: Develop the first version of an automated itinerary generator based on destination, duration, preferences, and budget.
+
+CORE FUNCTIONALITY:
+- User inputs: Destination, trip duration (number of days), general interests (from profile), rough budget.
+- AI generates a day-by-day suggested itinerary including:
+  - Mix of activities (based on interests and AI suggestions).
+  - Meal suggestions (optional, can be generic like "Lunch in X area").
+  - Estimated travel times between activities (basic estimates).
+- Itinerary should be editable by users.
+
+AI LOGIC:
+- Combine personalized recommendations (Prompt 5.2) with general knowledge of the destination.
+- Simple scheduling logic to ensure a reasonable flow and pace.
+- Consider opening hours and typical visit durations for popular attractions (if data is available).
+- Balance popular tourist spots with hidden gems if possible.
+
+TECHNICAL IMPLEMENTATION:
+- LLM for generating itinerary structure and activity descriptions.
+- Prompt engineering to guide the LLM to create balanced and feasible itineraries.
+- Integration with activity suggestion and preference systems.
+
+DELIVERABLES:
+- Functional V1 automated itinerary generator.
+- Generated itineraries are coherent and consider basic user inputs.
+- Users can view and manually edit the generated itinerary.
+
+SUCCESS CRITERIA:
+- >50% of users try the automated itinerary generator.
+- Generated itineraries are rated as a "good starting point" by >70% of users who try it.
+- Time spent manually planning an itinerary reduced by 50% for users who use the generator.
+```

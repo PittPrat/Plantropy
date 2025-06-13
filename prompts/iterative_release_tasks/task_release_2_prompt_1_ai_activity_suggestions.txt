@@ -1,0 +1,48 @@
+### **Release 2 Prompts: Smart Suggestions**
+
+#### **Prompt 2.1: AI Activity Suggestions**
+```
+You are an AI engineer focused on practical applications of LLMs.
+
+TASK: Implement AI-powered activity suggestions based on trip location and basic user interests.
+
+CORE FUNCTIONALITY:
+- User inputs trip destination (city/region).
+- AI suggests 3-5 relevant activities (sightseeing, dining, entertainment).
+- Suggestions should include a brief description, estimated cost (if applicable), and a link to more info.
+- Basic interest filtering (e.g., "outdoors", "museums", "foodie").
+
+TECHNICAL REQUIREMENTS:
+- Integrate with a free/low-cost LLM API (e.g., OpenAI GPT-4o-mini, Gemini Flash, or a self-hosted model if feasible within free tiers).
+- Prompt engineering to get structured, relevant suggestions.
+- Caching of suggestions to reduce API calls and costs.
+- Fallback to simple keyword search if AI fails.
+
+UI CONSIDERATIONS:
+- Clear way to trigger suggestions.
+- Attractive display of suggested activities.
+- Easy way to save or dismiss suggestions.
+
+API INTEGRATIONS:
+- Google Places API for venue data (if needed to supplement LLM).
+- Yelp API for restaurant recommendations (if needed to supplement LLM).
+- Weather API for activity planning context (optional for this release).
+- Local event APIs where available (optional for this release).
+
+PROMPT ENGINEERING:
+Design prompts that:
+- Specify desired output format (e.g., JSON).
+- Constrain suggestions to the given location.
+- Incorporate user interests effectively.
+- Encourage concise and actionable descriptions.
+
+DELIVERABLES:
+- Functional AI activity suggestion feature.
+- Suggestions are relevant to the location and basic interests.
+- Caching mechanism is in place.
+
+SUCCESS CRITERIA:
+- 70% of users find AI suggestions helpful (survey/feedback).
+- AI suggestions clicked/saved 40% of the time.
+- Average cost per 100 suggestions < $1 (monitor API usage).
+```

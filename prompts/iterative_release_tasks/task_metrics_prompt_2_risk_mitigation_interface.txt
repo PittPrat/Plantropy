@@ -1,0 +1,36 @@
+#### **Prompt 7.2: Risk Mitigation Interface**
+```
+You are a project manager and frontend developer focused on proactive problem-solving.
+
+TASK: Design and implement a simple internal interface to list, track, and update status on key project risks and their mitigation strategies (as outlined in Pantropy_iterative.txt).
+
+CORE FUNCTIONALITY:
+- Display a list of identified project risks (e.g., LLM API costs, data privacy concerns, integration failures, low user adoption).
+- For each risk, show: Description, Likelihood (High/Med/Low), Impact (High/Med/Low), Mitigation Strategy, Status (Open/In Progress/Mitigated/Closed), Owner (optional).
+- Allow manual updating of risk status and notes on mitigation progress.
+- This interface helps keep risks visible and ensures mitigation plans are actively managed.
+
+TECHNICAL REQUIREMENTS:
+- Data structure for storing risk information (can be a simple JSON file or Supabase table).
+- UI for displaying and editing risk data (can be another section of the admin-only dashboard).
+
+RISKS TO TRACK (examples from Pantropy_iterative.txt, to be pre-populated):
+- Technical Debt from Rapid Prototyping
+- LLM API Costs & Reliability
+- Third-Party API Integration Failures
+- Data Privacy & Security Breaches
+- Scalability Issues with Supabase
+- Low User Adoption / Engagement
+- Inaccurate AI Suggestions / Biases
+- Scope Creep
+
+DELIVERABLES:
+- Functional internal interface for tracking project risks.
+- Pre-populated with key risks from the iterative plan.
+- Ability to update risk status and mitigation notes.
+
+SUCCESS CRITERIA:
+- All major identified risks are tracked in the interface.
+- Mitigation progress is clearly visible.
+- The interface serves as an effective tool for risk management discussions.
+```

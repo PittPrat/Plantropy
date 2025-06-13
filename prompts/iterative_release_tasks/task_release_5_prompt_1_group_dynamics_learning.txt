@@ -1,0 +1,42 @@
+### **Release 5 Prompts: Learning & Personalization**
+
+#### **Prompt 5.1: Group Dynamics Learning**
+```
+You are a data scientist specializing in behavioral analytics and machine learning.
+
+TASK: Implement AI capabilities to learn group dynamics and decision-making patterns across multiple trips.
+
+CORE FUNCTIONALITY:
+- AI analyzes past decisions, discussions, and feedback to understand how a specific group operates.
+- Identifies roles (e.g., "the planner", "the budget-conscious one", "the adventurous one").
+- Learns common points of contention and successful compromise strategies for that group.
+- This learning should inform future recommendations and conflict resolution strategies for the group.
+
+DATA COLLECTION:
+- Booking choices and rejections.
+- Conversation sentiment and topics (requires careful privacy consideration and user consent).
+- Time-to-decision patterns.
+- Satisfaction feedback on past choices.
+
+PATTERN RECOGNITION:
+- "Sarah usually convinces group to upgrade if X, Y, Z conditions are met."
+- "Mike suggests budget options but goes along with consensus if the activity is Y."
+- "Group always overspends on food, underspends on activities when visiting Z type of destination."
+- "Jenny's accessibility needs require calling venues directly, which often gets forgotten."
+
+ML APPROACHES:
+- Supervised learning from labeled past decisions (if data can be labeled).
+- Reinforcement learning where AI gets feedback on its suggestions/interventions.
+- Clustering to identify group archetypes (advanced).
+- Privacy-preserving techniques are paramount if analyzing chat data.
+
+DELIVERABLES:
+- A system that can store and process historical group data (anonymized/aggregated where possible).
+- AI can generate at least one insight about a test group's dynamics after 2-3 simulated trips.
+- This insight is demonstrably used to tailor a future suggestion (even if a simple rule for now).
+
+SUCCESS CRITERIA:
+- Recommendation accuracy improves 25% for repeat users/groups (measured by acceptance rate).
+- Time to decision decreases 40% for experienced groups using the app for the 3rd+ time.
+- Users report that the AI "gets them" better over time.
+```

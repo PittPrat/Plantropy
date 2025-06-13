@@ -1,0 +1,47 @@
+#### **Prompt 2.2: Intelligent Expense Splitting**
+```
+You are a backend developer with experience in financial tech.
+
+TASK: Implement intelligent expense splitting with basic context awareness.
+
+CORE FUNCTIONALITY:
+- Users can log expenses with amount, description, and who paid.
+- AI suggests how to split the expense based on description and participants.
+  - e.g., "Dinner for everyone" -> split evenly.
+  - e.g., "Sarah's souvenirs" -> assign to Sarah.
+- Manual override for splitting logic.
+- Basic tracking of who owes whom within the group.
+
+USER INPUT EXAMPLES:
+1. "$50 for dinner - paid by me"
+2. "$20 for museum tickets for John and Jane - paid by Alex"
+3. "Uber to airport - just me and Sarah"
+4. "Hotel room for everyone for 3 nights"
+
+AI PROCESSING:
+- Extract key info: amount, payer, category, participants.
+- Suggest appropriate splitting logic.
+- Learn group patterns over time (future release, but design for it).
+- Handle edge cases and ambiguity.
+
+TECHNICAL IMPLEMENTATION:
+- Receipt scanning with OCR (Google Vision API or similar, consider free tier limits) - (Optional for this release, manual input is primary).
+- Natural language processing for expense description (LLM or simpler regex/keyword matching for this release).
+- Rule-based splitting with AI enhancement.
+- Real-time balance updates for all members (Supabase Realtime).
+
+UI CONSIDERATIONS:
+- Simple form for logging expenses.
+- Clear display of suggested split and final split.
+- Easy way to see balances.
+
+DELIVERABLES:
+- Functional expense logging and splitting feature.
+- AI provides reasonable default splits for common scenarios.
+- Balances are tracked accurately.
+
+SUCCESS CRITERIA:
+- AI suggestions for splits are accepted >70% of the time for common cases.
+- Users can log and split an expense in <60 seconds.
+- Balances are consistently accurate.
+```

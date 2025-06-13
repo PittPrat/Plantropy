@@ -1,0 +1,43 @@
+## Task 05: Plan Advanced Mobile AI - Visual Planning (Computer Vision / Augmented Reality)
+
+**Objective:** Define the features and technical approach for integrating computer vision (CV) and augmented reality (AR) capabilities into the Plantropy mobile app for enhanced planning assistance.
+
+**Instructions:** Review the requirements below from 'Plantopy_execution.txt'. Focus on the `VisualPlanningAssistant` class, including menu analysis and AR navigation. Prepare to elaborate on these for development planning, considering image processing, CV algorithms, AR frameworks, and 3D rendering.
+
+**Requirements from Plantopy_execution.txt:**
+
+```
+**Computer Vision and AR Integration:**
+```typescript
+// Camera-based planning assistance
+class VisualPlanningAssistant {
+  // Restaurant menu analysis with AI recommendations
+  async analyzeMenuPhoto(imageData: ImageData, groupPreferences: GroupPreferences): Promise<MenuAnalysis> {
+    // OCR for text extraction from menu images
+    // AI-powered dish recognition and ingredient analysis
+    // Dietary restriction filtering and preference matching
+    // Price range estimation and value assessment
+    // User review integration for popular dish highlighting
+  }
+  
+  // AR-enhanced environment exploration
+  async exploreEnvironmentAR(location: Location, preferences: UserPreferences): Promise<ARExplorationData> {
+    // Real-world object recognition for landmark identification
+    // Points of interest (POI) overlay with relevant information
+    // Interactive AR elements for discovering hidden gems
+    // Cultural context provision with historical and social significance
+    // Integration with existing itinerary for seamless experience enhancement
+  }
+  
+  // AR-powered navigation and discovery
+  async provideARNavigation(destination: Location, preferences: UserPreferences): Promise<ARNavigationData> {
+    // Augmented reality overlay with directional guidance and POI highlighting
+    // Real-time translation of signs and menus with cultural context
+    // Hidden gem discovery with local insider recommendations
+    // Safety assessment with real-time crime and traffic data integration
+    // Social integration with friend check-ins and recommendation sharing
+  }
+}
+```
+
+**Note:** Refer to the full 'Plantopy_execution.txt' document for complete context if needed.

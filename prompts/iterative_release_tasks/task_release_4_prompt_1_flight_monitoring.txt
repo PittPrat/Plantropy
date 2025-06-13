@@ -1,0 +1,39 @@
+### **Release 4 Prompts: Real-Time Coordination**
+
+#### **Prompt 4.1: Flight Monitoring & Notifications**
+```
+You are a backend engineer specializing in real-time data integration.
+
+TASK: Implement flight status monitoring with automated notifications for delays and cancellations.
+
+CORE FUNCTIONALITY:
+- Users can input flight numbers for their trips.
+- System periodically checks flight status using a third-party API.
+- Automatically notifies group members of significant delays, cancellations, or gate changes.
+
+TECHNICAL REQUIREMENTS:
+- Integrate with a flight status API (e.g., FlightStats, AeroDataBox - check free/low-cost tiers).
+- Background job scheduler (e.g., cron, Supabase scheduled functions) to poll for updates.
+- Robust error handling for API failures or invalid flight numbers.
+- Notification system (from Release 3) to send alerts.
+
+API POLLING STRATEGY:
+- More frequent polling closer to departure time.
+- Less frequent polling far in advance.
+- Stop polling after flight arrival or cancellation.
+
+NOTIFICATION TRIGGERS:
+- Delay > 30 minutes.
+- Flight cancellation.
+- Gate change.
+- Early arrival > 15 minutes.
+
+DELIVERABLES:
+- Functional flight monitoring for user-added flights.
+- Automated notifications for significant flight status changes.
+
+SUCCESS CRITERIA:
+- 100% of flight delays >30min detected and communicated within 5 minutes of API update.
+- System handles 100 concurrent flights being monitored (simulated).
+- API costs remain within budget (e.g., <$5 for 1000 flights monitored).
+```
