@@ -6,7 +6,8 @@
     "build": "pnpm --filter \"./packages/**\" build && pnpm --filter \"./apps/**\" build",
     "lint": "pnpm --filter \"./**\" lint",
     "typecheck": "pnpm --filter \"./**\" typecheck",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "pnpm --filter \"./packages/**\" test"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.0",
